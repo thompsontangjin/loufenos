@@ -1,0 +1,114 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>鹭风网络</title>
+</head>
+
+<body>
+    <center><h3>查询GPSID</h3></center>
+     
+    <div style="margin:30px">
+     
+    <form method="post" action="/admin">
+        
+       <center><h3>请输入GPSID：</h3>
+  
+    <input type="text" name="gpsid" style="width:90px">
+      
+  
+    <input type="submit" name="Submit" value="查询">
+      </center>
+</form>
+ </div>
+    <p><center><h3>删除GPSID</h3></center></p>
+        <div style="margin:30px">
+    <form method="post" action="/delete">
+        
+        <p><center><h3>请输入GPSID：</h3></center></p>
+  <p><center>
+    <input type="text" name="gpsid" style="width:90px">
+      </center></p>
+  <p><center>
+    <input type="submit" name="Submit" value="delete">
+      </center></p>
+</form>
+ </div>
+         <p><center><h3>查询货号记录</h3></center></p>
+    <div style="margin:30px">
+    <form method="post" action="/admingn">
+        
+        <p><center><h3>请输入货号：</h3></center></p>
+  <p><center>
+    <input type="text" name="goodnumber" style="width:90px">
+      </center></p>
+  <p><center>
+    <input type="submit" name="Submit" value="查询">
+      </center></p>
+</form>
+ </div>
+        <p><center><h3>删除货号</h3></center></p>
+ <div style="margin:30px">
+    <form method="post" action="/deletegn">
+        
+        <p><center><h3>请输入货号ID：</h3></center></p>
+  <p><center>
+    <input type="text" name="gnid" style="width:90px">
+      </center></p>
+  <p><center>
+    <input type="submit" name="Submit" value="delete">
+  </center></p>
+  </form>
+ </div>
+       
+        
+        
+                <p><center><h3>查询用户：</h3></center></p>
+    <div style="margin:30px">
+    <form method="post" action="/username">
+        
+        <p><center><h3>请输入用户名：</h3></center></p>
+  <p><center>
+      <input type="text" name="username" style="width:90px">
+      </center></p>
+  <p><center>
+    <input type="submit" name="Submit" value="查询用户">
+      </center></p>
+</form>
+ </div>
+    
+                    <p><center><h3>新建用户：</h3></center></p>
+    <div style="margin:30px">
+    <form method="post" action="/usernameadd">
+        
+        <p><center><h3>请输入用户名：</h3>
+ 
+      <input type="text" name="username" style="width:90px">
+      </center></p>
+                <p><center><h3>请输入密码：</h3>
+ 
+      <input type="text" name="password" style="width:90px">
+      </center></p>
+  <p><center>
+    <input type="submit" name="Submit" value="新建用户">
+      </center></p>
+</form>
+ </div>
+    
+        <p><center><h3>删除用户</h3></center></p>
+        <div style="margin:30px">
+    <form method="post" action="/usernamedelete">
+        
+        <p><center><h3>请输入用户名ID：</h3></center></p>
+  <p><center>
+    <input type="text" name="usernameid" style="width:90px">
+      </center></p>
+  <p><center>
+    <input type="submit" name="Submit" value="删除用户">
+      </center></p>
+</form>
+ </div>
+
+</body>
+</html>
